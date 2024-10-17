@@ -5,15 +5,17 @@
        To create a basic home automation system that allows users to control various household devices (like lights and fans) remotely using a microcontroller, sensors, and actuators.
 
 ####Components:
-*Microcontroller*: Arduino Uno (or compatible board)
-*Sensors*:Motion Sensor (PIR),Light Sensor (LDR)
-*Actuators*:Relay module (to control high-voltage devices),LED lights (for testing),Fan (optional)
-*Power Supply*: USB or battery for Arduino
-*Connectivity*: Optional Wi-Fi module (like ESP8266) for remote access
-*Features*:Motion Detection: Automatically turn on lights when motion is detected.
-*Light Control*: Adjust lighting based on ambient light levels (using LDR).
-*Remote Control*: Control devices via a mobile app or web interface (if using Wi-Fi module).
-*Scheduling*: Set timers for devices to turn on/off at specific times.
+     *Microcontroller*: Arduino Uno (or compatible board);
+     *Sensors*:Motion Sensor (PIR),Light Sensor (LDR);
+     *Actuators*:Relay module (to control high-voltage devices),LED lights (for testing),Fan (optional);
+     *Power Supply*: USB or battery for Arduino;
+     *Connectivity*: Optional Wi-Fi module (like ESP8266) for remote access;
+     *Features*:Motion Detection: Automatically turn on lights when motion is detected;
+     *Light Control*: Adjust lighting based on ambient light levels (using LDR);
+     *Remote Control*: Control devices via a mobile app or web interface (if using Wi-Fi module);
+     *Scheduling*: Set timers for devices to turn on/off at specific times.
+
+     
 *Workflow*:
    Circuit Design: Use Tinkercad to create a circuit diagram, connecting sensors and actuators to the Arduino.
    Programming: Write code to handle sensor input and control outputs. Utilize libraries as needed (e.g., for Wi-Fi connectivity).
